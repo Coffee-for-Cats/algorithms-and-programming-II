@@ -17,7 +17,6 @@ void addLast(List *list, int number) {
   else {
     new->num = number;
     new->next = NULL;
-
     if(list->first == NULL) {
       list->first = new;
     } else {
